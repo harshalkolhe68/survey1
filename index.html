@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html >
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <!-- Bootstrap 5 CSS -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/star.css">
+</head>
+
+<body>
+
+  <!-- Header Start -->
+  <div class="container-fluid">
+    <div class="row header">
+      <div class="col">
+        <img id="img1" src="MCGM-logo-46e7f34a864315bf756d7a3a216631d60cef4b49aed4fc2e515e7183dcd51b6b.png" alt="">
+      </div>
+      <div class="col">
+        <h2 id="t1">Citizen Survey : Vision 2030</h2>
+      </div>
+      <div class="col">
+        <img id="img2" src="sculpture-6e36c2d2e2ffbb1db014df576900c3d8f9058639738ee05529dab2a4f9f05542.png" alt="">
+      </div>
+    </div>
+    <div class="row mid-text">
+      <div class="col col-lg-1">
+        <button class="btn btn-outline-primary py-1 px-3 mr-2" type="button" value="English"> English</button>
+      </div>
+      <div class="col col-lg-1">
+        <a href="Hindi.html"><button class="btn btn-outline-primary py-1 px-4 mr-2"  type="button" value="Hindi">हिंदी</button></a>
+      </div>
+      <div class="col col-lg-1">
+        <button class="btn btn-outline-primary py-1 px-4" type="button" value="Marathi">मराठी</button>
+      </div>
+    </div>
+  </div>
+  <!-- Header End -->
+  <!-- Main Content Start -->
+  <div id="demo">
+    <br>
+    <div class="container">
+      <form action="">
+        <div class="input-group">
+          <div class="input-group-prepend">
+            <span class="input-group-text" id="">Name</span>
+          </div>
+          <input type="text" class="form-control">
+        </div>
+        <br>
+        <div class="form-group">
+          <label for="" class="required">Locality</label>
+          <select class="form-control" name="" id="">
+            <option value="">Please Select</option>
+            <option value="">Agripada</option>
+            <option value="">Aksa</option>
+            <option value="">Andheri East</option>
+            <option value="">Andheri West</option>
+            <option value="">Anushakti Nagar</option>
+            <option value="">Asalpha</option>
+            <option value="">Bandra East</option>
+            <option value="">Bandra West</option>
+            <option value="">Bhandup</option>
+            <option value="">Bhendi Bazar</option>
+            <option value="">Bhuleshwar</option>
+            <option value="">Borivali</option>
+            <option value="">Breach Candy</option>
+            <option value="">Byculla</option>
+            <option value="">Chandivali</option>
+            <option value="">Charkop</option>
+            <option value="">Cheetah Camp</option>
+            <option value="">Chembur</option>
+            <option value="">Chheda Nagar</option>
+            <option value="">Chickpokli</option>
+            <option value="">Churchgate</option>
+            <option value="">Colaba</option>
+            <option value="">Dadar</option>
+            <option value="">Dahisar</option>
+            <option value="">Deonar</option>
+            <option value="">Dharavi</option>
+            <option value="">Dockyard Road</option>
+            <option value="">Dongri</option>
+            <option value="">Ghatkopar</option>
+            <option value="">Goregaon</option>
+            <option value="">Grant Road</option>
+            <option value="">Haji Ali</option>
+            <option value="">Hindu Colony</option>
+            <option value="">Jogeshwari East</option>
+            <option value="">Jogeshwari West</option>
+            <option value="">Kandivali</option>
+            <option value="">Kanjurmarg</option>
+            <option value="">Khar East</option>
+            <option value="">Khar West</option>
+            <option value="">Kurla</option>
+            <option value="">Madanpura</option>
+            <option value="">Madh</option>
+            <option value="">Mahim</option>
+            <option value="">Malabar Hill</option>
+            <option value="">Malad</option>
+            <option value="">Mankurd</option>
+            <option value="">Manori</option>
+            <option value="">Marve</option>
+            <option value="">Masjid Bunder</option>
+            <option value="">Matunga</option>
+            <option value="">Mohd. Ali Road</option>
+            <option value="">Mulund</option>
+            <option value="">Nagpada</option>
+            <option value="">Nahur</option>
+            <option value="">Navy Nagar</option>
+            <option value="">Pant Nagar</option>
+            <option value="">Parel</option>
+            <option value="">Powai</option>
+            <option value="">Prabhadevi</option>
+            <option value="">Pydhonie</option>
+            <option value="">Reay Road</option>
+            <option value="">Sakinaka</option>
+            <option value="">Santacruz East</option>
+            <option value="">Santacruz West</option>
+            <option value="">Shivaji Nagar</option>
+            <option value="">Sindhi Society</option>
+            <option value="">Sion</option>
+            <option value="">Tilak Nagar</option>
+            <option value="">Vidyavihar</option>
+            <option value="">Vikhroli</option>
+            <option value="">Vile Parle East</option>
+            <option value="">Vile Parle West</option>
+            <option value="">Wadala</option>
+            <option value="">Walkeshwar</option>
+            <option value="">Worli</option>
+          </select>
+        </div>
+        <br>
+        <!-- Question 1 -->
+        <div class="form-group">
+          <h5 class="required">1. How would you rate the Cleanliness in your area?</h5>
+          <!-- <div class="form-group"> -->
+          <div class="question" id="q1">
+            <p>a. Street sweeping</p>
+            <div class="starrating risingstar d-flex justify-content-end flex-row-reverse" id="hello">
+              <input type="radio" id="star5" name="rating" value="5" /><label for="star5" title="5 star"></label>
+              <input type="radio" id="star4" name="rating" value="4" /><label for="star4" title="4 star"></label>
+              <input type="radio" id="star3" name="rating" value="3" /><label for="star3" title="3 star"></label>
+              <input type="radio" id="star2" name="rating" value="2" /><label for="star2" title="2 star"></label>
+              <input type="radio" id="star1" name="rating" value="1" /><label for="star1" title="1 star"></label>
+            </div>
+          </div>
+
+          <div class="question" id="q2">
+            <p>b. Waste Collection</p>
+            <div class="starrating1 risingstar d-flex justify-content-end flex-row-reverse">
+              <input type="radio" id="star10" name="rating1" value="5" /><label for="star10" title="5 star"></label>
+              <input type="radio" id="star9" name="rating1" value="4" /><label for="star9" title="4 star"></label>
+              <input type="radio" id="star8" name="rating1" value="3" /><label for="star8" title="3 star"></label>
+              <input type="radio" id="star7" name="rating1" value="2" /><label for="star7" title="2 star"></label>
+              <input type="radio" id="star6" name="rating1" value="1" /><label for="star6" title="1 star"></label>
+            </div>
+          </div>
+
+          <div class="question" id="q3">
+            <p>c. Maintenance of Public toilets</p>
+            <div class="starrating2 risingstar d-flex justify-content-end flex-row-reverse">
+              <input type="radio" id="star15" name="rating2" value="5" /><label for="star15" title="5 star"></label>
+              <input type="radio" id="star14" name="rating2" value="4" /><label for="star14" title="4 star"></label>
+              <input type="radio" id="star13" name="rating2" value="3" /><label for="star13" title="3 star"></label>
+              <input type="radio" id="star12" name="rating2" value="2" /><label for="star12" title="2 star"></label>
+              <input type="radio" id="star11" name="rating2" value="1" /><label for="star11" title="1 star"></label>
+            </div>
+          </div>
+          <div class="question" id="q3">
+            <p>d. Maintenance of Public amenities (Bus stops, subways, etc.) and spaces (Beaches, sea front etc.)</p>
+            <div class="starrating2 risingstar d-flex justify-content-end flex-row-reverse">
+              <input type="radio" id="star20" name="rating3" value="5" /><label for="star20" title="5 star"></label>
+              <input type="radio" id="star19" name="rating3" value="4" /><label for="star19" title="4 star"></label>
+              <input type="radio" id="star18" name="rating3" value="3" /><label for="star18" title="3 star"></label>
+              <input type="radio" id="star17" name="rating3" value="2" /><label for="star17" title="2 star"></label>
+              <input type="radio" id="star16" name="rating3" value="1" /><label for="star16" title="1 star"></label>
+            </div>
+          </div>
+          <div class="question" id="q3">
+            <p>e. Emptying and upkeep of public litter bins</p>
+            <div class="starrating2 risingstar d-flex justify-content-end flex-row-reverse">
+              <input type="radio" id="star25" name="rating4" value="5" /><label for="star25" title="5 star"></label>
+              <input type="radio" id="star24" name="rating4" value="4" /><label for="star24" title="4 star"></label>
+              <input type="radio" id="star23" name="rating4" value="3" /><label for="star23" title="3 star"></label>
+              <input type="radio" id="star22" name="rating4" value="2" /><label for="star22" title="2 star"></label>
+              <input type="radio" id="star21" name="rating4" value="1" /><label for="star21" title="1 star"></label>
+            </div>
+          </div>
+          <br>
+          <!-- Question 2 -->
+          <h5>2. What are the major hindrances for improvement of cleanliness & sanitation in your area?</h5>
+          <div class="form-group">
+            <label for="" class="required">Priority 1</label>
+            <select class="form-control" name="color" onchange='checkvalue(this.value)'>
+              <option value="">Please Select</option>
+              <option value="">a. Slum Settlements</option>
+              <option value="">b. Street vendors</option>
+              <option value="No Construction debris lying around">c. C&D waste generation</option>
+              <option value="No waterlogging due to plastic">d. Type of establishments (Commercial, industrial,
+                residential)</option>
+              <option value="others">e. Others (Pls mention)</option>
+            </select>
+            <br>
+            <input type="text" name="color" id="color" style='display:none' />
+          </div>
+          <br>
+          <div class="form-group">
+            <label for="" class="required">Priority 2</label>
+            <select class="form-control" name="color1" onchange='checkvalue1(this.value)'>
+              <option value="">Please Select</option>
+              <option value="">a. Slum Settlements</option>
+              <option value="">b. Street vendors</option>
+              <option value="No Construction debris lying around">c. C&D waste generation</option>
+              <option value="No waterlogging due to plastic">d. Type of establishments (Commercial, industrial,
+                residential)
+              </option>
+              <option value="others1">e. Others (Pls mention)</option>
+            </select>
+            <br>
+            <input type="text" name="color1" id="color1" style='display:none' />
+          </div>
+          <br>
+          <div class="form-group">
+            <label for="" class="required">Priority 3</label>
+            <select class="form-control" name="color" onchange='checkvalue2(this.value)'>
+              <option value="">Please Select</option>
+              <option value="">a. Slum Settlements</option>
+              <option value="">b. Street vendors</option>
+              <option value="">c. C&D waste generation</option>
+              <option value="">d. Type of establishments (Commercial, industrial, residential)
+              </option>
+              <option value="others2">e. Others (Pls mention)</option>
+            </select>
+            <br>
+            <input type="text" name="color" id="color2" style='display:none' />
+          </div>
+          <br>
+          <!-- Question 3 -->
+          <h5 class="required"> 3.How would you rate citizens involvement in cleanliness activities in your area?</h5>
+          <div class="question" id="q1">
+            <p>a. Segregation of waste</p>
+            <div class="starrating risingstar d-flex justify-content-end flex-row-reverse" id="hello">
+              <input type="radio" id="star28" name="rating5" value="3" /><label for="star28" title="3 star"></label>
+              <input type="radio" id="star27" name="rating5" value="2" /><label for="star27" title="2 star"></label>
+              <input type="radio" id="star26" name="rating5" value="1" /><label for="star26" title="1 star"></label>
+            </div>
+          </div>
+
+          <div class="question" id="q2">
+            <p>b. Open Defecation</p>
+            <div class="starrating1 risingstar d-flex justify-content-end flex-row-reverse">
+              <input type="radio" id="star31" name="rating6" value="3" /><label for="star31" title="3 star"></label>
+              <input type="radio" id="star30" name="rating6" value="2" /><label for="star30" title="2 star"></label>
+              <input type="radio" id="star29" name="rating6" value="1" /><label for="star29" title="1 star"></label>
+            </div>
+          </div>
+
+          <div class="question" id="q3">
+            <p>c. Littering or Spitting</p>
+            <div class="starrating2 risingstar d-flex justify-content-end flex-row-reverse">
+              <input type="radio" id="star34" name="rating7" value="3" /><label for="star34" title="3 star"></label>
+              <input type="radio" id="star33" name="rating7" value="2" /><label for="star33" title="2 star"></label>
+              <input type="radio" id="star32" name="rating7" value="1" /><label for="star32" title="1 star"></label>
+            </div>
+          </div>
+          <div class="question" id="q3">
+            <p>d. Usage of banned plastics products</p>
+            <div class="starrating2 risingstar d-flex justify-content-end flex-row-reverse">
+              <input type="radio" id="star37" name="rating8" value="3" /><label for="star37" title="3 star"></label>
+              <input type="radio" id="star36" name="rating8" value="2" /><label for="star36" title="2 star"></label>
+              <input type="radio" id="star35" name="rating8" value="1" /><label for="star35" title="1 star"></label>
+            </div>
+          </div>
+          <br>
+          <!-- Question 4 -->
+          <h5 class="required">4.What are the issues faced by the citizens regarding cleanliness and sanitation in your
+            area?</h5>
+          <div class="form-group">
+            <label for="" class="required">Priority 1</label>
+            <select class="form-control" name="color" onchange='checkvalue3(this.value)'>
+              <option value="">Please Select</option>
+              <option value="">a. Unclean streets and roads</option>
+              <option value="">b. Unavailability of bins in public areas</option>
+              <option value="">c. Unavailability or unclean public toilets</option>
+              <option value="">d. Open dumping of waste</option>
+              <option value="">e. Open defecation and urination</option>
+              <option value="">f. Compliant/ Grievance redressal</option>
+              <option value="others3">e. Others (Pls mention)</option>
+            </select>
+            <br>
+            <input type="text" name="color" id="color3" style='display:none' />
+          </div>
+          <br>
+          <div class="form-group">
+            <label for="" class="required">Priority 2</label>
+            <select class="form-control" name="color" onchange='checkvalue4(this.value)'>
+              <option value="">Please Select</option>
+              <option value="">a. Unclean streets and roads</option>
+              <option value="">b. Unavailability of bins in public areas</option>
+              <option value="">c. Unavailability or unclean public toilets</option>
+              <option value="">d. Open dumping of waste</option>
+              <option value="">e. Open defecation and urination</option>
+              <option value="">f. Compliant/ Grievance redressal</option>
+              <option value="others4">e. Others (Pls mention)</option>
+            </select>
+            <br>
+            <input type="text" name="color" id="color4" style='display:none' />
+          </div>
+          <br>
+          <div class="form-group">
+            <label for="" class="required">Priority 3</label>
+            <select class="form-control" name="color" onchange='checkvalue5(this.value)'>
+              <option value="">Please Select</option>
+              <option value="">a. Unclean streets and roads</option>
+              <option value="">b. Unavailability of bins in public areas</option>
+              <option value="">c. Unavailability or unclean public toilets</option>
+              <option value="">d. Open dumping of waste</option>
+              <option value="">e. Open defecation and urination</option>
+              <option value="">f. Compliant/ Grievance redressal</option>
+              <option value="others5">e. Others (Pls mention)</option>
+            </select>
+            <br>
+            <input type="text" name="color" id="color5" style='display:none' />
+          </div>
+          <br>
+          <!-- Question 5 -->
+          <h5 class="required">5.How would you rate the cleanliness & sanitation in slum of your area?</h5>
+          <!-- <div class="form-group"> -->
+          <div class="question" id="q1">
+            <p>a. Door to door waste collection</p>
+            <div class="starrating risingstar d-flex justify-content-end flex-row-reverse" id="hello">
+              <input type="radio" id="star42" name="rating9" value="5" /><label for="star42" title="5 star"></label>
+              <input type="radio" id="star41" name="rating9" value="4" /><label for="star4" title="4 star"></label>
+              <input type="radio" id="star40" name="rating9" value="3" /><label for="star40" title="3 star"></label>
+              <input type="radio" id="star39" name="rating9" value="2" /><label for="star39" title="2 star"></label>
+              <input type="radio" id="star38" name="rating9" value="1" /><label for="star38" title="1 star"></label>
+            </div>
+          </div>
+
+          <div class="question" id="q2">
+            <p>b. Availability and maintenance of community toilets</p>
+            <div class="starrating1 risingstar d-flex justify-content-end flex-row-reverse">
+              <input type="radio" id="star47" name="rating10" value="5" /><label for="star47" title="5 star"></label>
+              <input type="radio" id="star46" name="rating10" value="4" /><label for="star46" title="4 star"></label>
+              <input type="radio" id="star45" name="rating10" value="3" /><label for="star45" title="3 star"></label>
+              <input type="radio" id="star44" name="rating10" value="2" /><label for="star44" title="2 star"></label>
+              <input type="radio" id="star43" name="rating10" value="1" /><label for="star43" title="1 star"></label>
+            </div>
+          </div>
+
+          <div class="question" id="q3">
+            <p>c. Garbage vulnerable points</p>
+            <div class="starrating2 risingstar d-flex justify-content-end flex-row-reverse">
+              <input type="radio" id="star52" name="rating11" value="5" /><label for="star52" title="5 star"></label>
+              <input type="radio" id="star51" name="rating11" value="4" /><label for="star51" title="4 star"></label>
+              <input type="radio" id="star50" name="rating11" value="3" /><label for="star50" title="3 star"></label>
+              <input type="radio" id="star49" name="rating11" value="2" /><label for="star49" title="2 star"></label>
+              <input type="radio" id="star48" name="rating11" value="1" /><label for="star48" title="1 star"></label>
+            </div>
+          </div>
+          <div class="question" id="q3">
+            <p>d. Open defecation and urination</p>
+            <div class="starrating2 risingstar d-flex justify-content-end flex-row-reverse">
+              <input type="radio" id="star57" name="rating12" value="5" /><label for="star57" title="5 star"></label>
+              <input type="radio" id="star56" name="rating12" value="4" /><label for="star56" title="4 star"></label>
+              <input type="radio" id="star55" name="rating12" value="3" /><label for="star55" title="3 star"></label>
+              <input type="radio" id="star54" name="rating12" value="2" /><label for="star54" title="2 star"></label>
+              <input type="radio" id="star53" name="rating12" value="1" /><label for="star53" title="1 star"></label>
+            </div>
+          </div>
+          <div class="question" id="q3">
+            <p>e. Service provided under SMPA</p>
+            <div class="starrating2 risingstar d-flex justify-content-end flex-row-reverse">
+              <input type="radio" id="star62" name="rating13" value="5" /><label for="star62" title="5 star"></label>
+              <input type="radio" id="star61" name="rating13" value="4" /><label for="star61" title="4 star"></label>
+              <input type="radio" id="star60" name="rating13" value="3" /><label for="star60" title="3 star"></label>
+              <input type="radio" id="star59" name="rating13" value="2" /><label for="star59" title="2 star"></label>
+              <input type="radio" id="star58" name="rating13" value="1" /><label for="star58" title="1 star"></label>
+            </div>
+          </div>
+          <br>
+          <!-- Question 6 -->
+          <h5 class="required">6.What does ‘Clean Mumbai’ mean to you?</h5>
+          <div class="form-group">
+            <label for="" class="required">Priority 1</label>
+            <select class="form-control" name="color" onchange='checkvalue6(this.value)'>
+              <option value="">Please Select</option>
+              <option value="">a. Better sanitation amenities in public and tourist areas</option>
+              <option value="">b. Awareness activities for waste reduction, segregation, plastic ban and others</option>
+              <option value="">c. Setting up Decentralized waste processing plant</option>
+              <option value="">d. Intervention for efficient waste collection system</option>
+              <option value="">e. Cleaning of streets and roads along with provision of litter bins</option>
+              <option value="">f. Cleaning of water bodies (beaches, bays, rivers, nallahs)</option>
+              <option value="others6">e. Others (Pls mention)</option>
+            </select>
+            <br>
+            <input type="text" name="color" id="color6" style='display:none' />
+          </div>
+          <br>
+          <div class="form-group">
+            <label for="" class="required">Priority 2</label>
+            <select class="form-control" name="color" onchange='checkvalue7(this.value)'>
+              <option value="">Please Select</option>
+              <option value="">a. Better sanitation amenities in public and tourist areas</option>
+              <option value="">b. Awareness activities for waste reduction, segregation, plastic ban and others</option>
+              <option value="">c. Setting up Decentralized waste processing plant</option>
+              <option value="">d. Intervention for efficient waste collection system</option>
+              <option value="">e. Cleaning of streets and roads along with provision of litter bins</option>
+              <option value="">f. Cleaning of water bodies (beaches, bays, rivers, nallahs)</option>
+              <option value="others7">e. Others (Pls mention)</option>
+            </select>
+            <br>
+            <input type="text" name="color" id="color7" style='display:none' />
+          </div>
+          <br>
+          <div class="form-group">
+            <label for="" class="required">Priority 3</label>
+            <select class="form-control" name="color" onchange='checkvalue8(this.value)'>
+              <option value="">Please Select</option>
+              <option value="">a. Better sanitation amenities in public and tourist areas</option>
+              <option value="">b. Awareness activities for waste reduction, segregation, plastic ban and others</option>
+              <option value="">c. Setting up Decentralized waste processing plant</option>
+              <option value="">d. Intervention for efficient waste collection system</option>
+              <option value="">e. Cleaning of streets and roads along with provision of litter bins</option>
+              <option value="">f. Cleaning of water bodies (beaches, bays, rivers, nallahs)</option>
+              <option value="others8">e. Others (Pls mention)</option>
+            </select>
+            <br>
+            <input type="text" name="color" id="color8" style='display:none' />
+          </div>
+          <br>
+          <!-- Question 7 -->
+          <h5 class="required">7.For your area to become the best in Mumbai for its cleanliness by 2030, which of the
+            following needs most improvement</h5>
+          <div class="form-group">
+            <label for="" class="required">Priority 1</label>
+            <select class="form-control" name="color" onchange='checkvalue9(this.value)'>
+              <option value="">Please Select</option>
+              <option value="">a. Cleaning of Streets and roads</option>
+              <option value="">b. Cleanliness & beautification of public areas</option>
+              <option value="">c. Clean water bodies (beaches, bays, mithi river, nallahs etc.)</option>
+              <option value="">d. Better management of waste including scientific recycling of all types of waste
+              </option>
+              <option value="">e. Availability and maintenance of public toilets</option>
+              <option value="">f. Citizen awareness & behaviour change</option>
+              <option value="others9">e. Others (Pls mention)</option>
+            </select>
+            <br>
+            <input type="text" name="color" id="color9" style='display:none' />
+          </div>
+          <br>
+          <div class="form-group">
+            <label for="" class="required">Priority 2</label>
+            <select class="form-control" name="color" onchange='checkvalue10(this.value)'>
+              <option value="">Please Select</option>
+              <option value="">a. Cleaning of Streets and roads</option>
+              <option value="">b. Cleanliness & beautification of public areas</option>
+              <option value="">c. Clean water bodies (beaches, bays, mithi river, nallahs etc.)</option>
+              <option value="">d. Better management of waste including scientific recycling of all types of waste
+              </option>
+              <option value="">e. Availability and maintenance of public toilets</option>
+              <option value="">f. Citizen awareness & behaviour change</option>
+              <option value="others10">e. Others (Pls mention)</option>
+            </select>
+            <br>
+            <input type="text" name="color" id="color10" style='display:none' />
+          </div>
+          <br>
+          <div class="form-group">
+            <label for="" class="required">Priority 3</label>
+            <select class="form-control" name="color" onchange='checkvalue11(this.value)'>
+              <option value="">Please Select</option>
+              <option value="">a. Cleaning of Streets and roads</option>
+              <option value="">b. Cleanliness & beautification of public areas</option>
+              <option value="">c. Clean water bodies (beaches, bays, mithi river, nallahs etc.)</option>
+              <option value="">d. Better management of waste including scientific recycling of all types of waste
+              </option>
+              <option value="">e. Availability and maintenance of public toilets</option>
+              <option value="">f. Citizen awareness & behaviour change</option>
+              <option value="others11">e. Others (Pls mention)</option>
+            </select>
+            <br>
+            <input type="text" name="color" id="color11" style='display:none' />
+          </div>
+          <br>
+          <!-- Question 8 -->
+          <h5 class="required">8. As an elected member, how can you support the city/ area under your area in becoming
+            clean and sustainable</h5>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+            <label class="form-check-label" for="flexCheckDefault">a. Setting up better sanitation amenities in public
+              and tourist areas</label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+            <label class="form-check-label" for="flexCheckDefault">b. Awareness activities for waste reduction,
+              segregation, plastic ban and others</label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+            <label class="form-check-label" for="flexCheckDefault">c. Setting up Decentralized waste processing
+              plant</label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+            <label class="form-check-label" for="flexCheckDefault">d. Intervention for efficient waste collection
+              system</label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+            <label class="form-check-label" for="flexCheckDefault">e. Cleaning of streets and roads along with provision
+              of litter bins</label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+            <label class="form-check-label" for="flexCheckDefault">f. Cleaning of water bodies (beaches, bays, rivers,
+              nallahs)</label>
+          </div>
+          <div class="form-check" onclick="checkvalue12(this.value)">
+            <input class="form-check-input" type="checkbox" value="others12" id="mycheck">
+            <label class="form-check-label" for="flexCheckDefault">g.Others (Please specify)</label>
+            <br>
+            <input type="text" name="color" id="color12" style='display:none' />
+          </div>
+
+          <div>
+            <input class="btn btn-primary button" type="button" value="Submit">
+          </div>
+      </form>
+    </div>
+  </div>
+  <!-- Main Content End -->
+  <!-- Footer Start -->
+  <footer>
+    <h6>Disclaimer : This form is best viewd on Chrome, Firefox, Mozilla, Android version 6.0+ & iOS Version 7 & above
+    </h6>
+  </footer>
+  <!-- Footer End -->
+  <script src="js/star.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <!-- <script src="http://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script> -->
+</body>
+
+</html>

@@ -1,0 +1,61 @@
+
+.header {
+  background-color: #1B61CC;
+  height: 180px;
+}
+
+#img1 {
+  height: 150px;
+  margin-left: 400px;
+  margin-top: 10px;
+}
+
+#img2 {
+  height: 150px;
+  margin-left: 200px;
+  margin-top: 10px;
+}
+
+#t1 {
+  padding-top: 50px;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
+
+.mid-text {
+  background-color: #244373;
+  height: 60px;
+  padding-left: 45%;
+}
+
+.mid-text button {
+  margin-top: 8px;
+  border-color: white;
+  color: white;
+}
+
+footer {
+  background-color: #1B61CC;
+  height: 50px;
+  margin-top: 10px;
+}
+
+footer h6 {
+  padding-top: 10px;
+  text-align: center;
+  color: white;
+}
+
+.container {
+  margin-bottom: 20px;
+}
+
+.button {
+  margin-left: 45%;
+}
+
+.required:after {
+  content: " *";
+  color: red;
+}

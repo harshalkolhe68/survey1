@@ -1,0 +1,234 @@
+@import url(//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css);
+.starrating>input {
+  display: none;
+}
+
+/* Remove radio buttons */
+
+.starrating>label:before {
+  content: "\f005";
+  /* Star */
+  margin: 5px;
+  font-size: 30px;
+  font-family: FontAwesome;
+}
+
+.starrating>label {
+  color: #222222;
+}
+
+.starrating>input:checked~label {
+  color: #ffca08;
+}
+
+.starrating>input:hover~label {
+  color: #ffca08;
+}
+
+/* StarRating 1 */
+
+.starrating1>input {
+  display: none;
+}
+
+.starrating1>label:before {
+  content: "\f005";
+  /* Star */
+  margin: 5px;
+  font-size: 30px;
+  font-family: FontAwesome;
+}
+
+.starrating1>label {
+  color: #222222;
+}
+
+.starrating1>input:checked~label {
+  color: #ffca08;
+}
+
+.starrating1>input:hover~label {
+  color: #ffca08;
+}
+
+/* StarRating 2 */
+
+.starrating2>input {
+  display: none;
+}
+
+.starrating2>label:before {
+  content: "\f005";
+  /* Star */
+  margin: 5px;
+  font-size: 30px;
+  font-family: FontAwesome;
+}
+
+.starrating2>label {
+  color: #222222;
+}
+
+.starrating2>input:checked~label {
+  color: #ffca08;
+}
+
+.starrating2>input:hover~label {
+  color: #ffca08;
+}
+
+/* StarRating 3 */
+
+.starrating3>input {
+  display: none;
+}
+
+.starrating3>label:before {
+  content: "\f005";
+  /* Star */
+  margin: 5px;
+  font-size: 30px;
+  font-family: FontAwesome;
+}
+
+.starrating3>label {
+  color: #222222;
+}
+
+.starrating3>input:checked~label {
+  color: #ffca08;
+}
+
+.starrating3>input:hover~label {
+  color: #ffca08;
+}
+
+/* StarRating 4 */
+
+.starrating4>input {
+  display: none;
+}
+
+.starrating4>label:before {
+  content: "\f005";
+  /* Star */
+  margin: 5px;
+  font-size: 30px;
+  font-family: FontAwesome;
+}
+
+.starrating4>label {
+  color: #222222;
+}
+
+.starrating4>input:checked~label {
+  color: #ffca08;
+}
+
+.starrating4>input:hover~label {
+  color: #ffca08;
+}
+
+/* StarRating 5 */
+
+.starrating4>input {
+  display: none;
+}
+
+.starrating4>label:before {
+  content: "\f005";
+  /* Star */
+  margin: 5px;
+  font-size: 30px;
+  font-family: FontAwesome;
+}
+
+.starrating4>label {
+  color: #222222;
+}
+
+.starrating4>input:checked~label {
+  color: #ffca08;
+}
+
+.starrating4>input:hover~label {
+  color: #ffca08;
+}
+
+/* StarRating 6 */
+
+.starrating4>input {
+  display: none;
+}
+
+.starrating4>label:before {
+  content: "\f005";
+  /* Star */
+  margin: 5px;
+  font-size: 30px;
+  font-family: FontAwesome;
+}
+
+.starrating4>label {
+  color: #222222;
+}
+
+.starrating4>input:checked~label {
+  color: #ffca08;
+}
+
+.starrating4>input:hover~label {
+  color: #ffca08;
+}
+
+/* StarRating 7 */
+
+.starrating4>input {
+  display: none;
+}
+
+.starrating4>label:before {
+  content: "\f005";
+  /* Star */
+  margin: 5px;
+  font-size: 30px;
+  font-family: FontAwesome;
+}
+
+.starrating4>label {
+  color: #222222;
+}
+
+.starrating4>input:checked~label {
+  color: #ffca08;
+}
+
+.starrating4>input:hover~label {
+  color: #ffca08;
+}
+
+/* StarRating 8 */
+
+.starrating4>input {
+  display: none;
+}
+
+.starrating4>label:before {
+  content: "\f005";
+  /* Star */
+  margin: 5px;
+  font-size: 30px;
+  font-family: FontAwesome;
+}
+
+.starrating4>label {
+  color: #222222;
+}
+
+.starrating4>input:checked~label {
+  color: #ffca08;
+}
+
+.starrating4>input:hover~label {
+  color: #ffca08;
+}
